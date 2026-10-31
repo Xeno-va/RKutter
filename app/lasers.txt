@@ -1,0 +1,9 @@
+# One block per laser. "kind" picks the driver.
+# Edit freely; the laser panel reads this file each time it opens. After renaming or
+# adding a laser, run app/inkscape/make_inx.py and install.sh again for its menu items.
+
+[UV marker]
+kind = rk-uv
+interface = eth0        # the wired network port the laser's board is plugged into (see: ip link)
+field = 110 x 110 mm    # your lens's field; used only until the settings file below exists
+settings = lasers/rk-uv/lasermarkparam.ini   # copy RK-CAD's lasermarkparam.ini here from the PC that runs RK-CAD

@@ -1,0 +1,8 @@
+# UV marking profile. UNVERIFIED placeholder values until the RK-CAD settings are decoded.
+mode = mark
+power = 50
+speed_mm_s = 1000
+frequency_khz = 40
+passes = 1
+fill_spacing_mm = 0.05
+fill_angle = 0

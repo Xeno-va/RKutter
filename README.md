@@ -72,3 +72,7 @@ reads the lens correction, scale, power curve and laser type from it, just as RK
 - `app/defaults.txt`: what Cut, Score and Engrave look like in Inkscape, and their starting
   settings.
 - `app/profiles/rk-uv/`: presets.
+
+## License
+
+MIT. See LICENSE. Provided as is, with no warranty: you run it on your own laser at your own risk.
